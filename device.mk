@@ -576,6 +576,14 @@ PRODUCT_COPY_FILES += \
  $(LOCAL_PATH)/system/lib64/libaudioutils.so:$system/lib64/libaudioutils.so \
  $(LOCAL_PATH)/system/lib64/libbluetooth.so:$system/lib64/libbluetooth.so
 
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libaacwrapper \
+    libnl
+
+ PRODUCT_BOOT_JARS += \
+    WfdCommon
+
 # Fix  Camera
 PRODUCT_COPY_FILES += \
  $(LOCAL_PATH)/vendor/lib/libshim_cameraservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshim_cameraservice.so \
