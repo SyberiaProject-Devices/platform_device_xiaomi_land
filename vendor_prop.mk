@@ -66,8 +66,7 @@ persist.vendor.qti.telephony.vt_cam_interface=1
 
 # Cne/Dpm
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.cne.feature=1 \
-persist.dpm.feature=1
+persist.vendor.cne.feature=1
 
 # Coresight
 PRODUCT_PROPERTY_OVERRIDES += \
