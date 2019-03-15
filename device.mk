@@ -590,3 +590,6 @@ PRODUCT_COPY_FILES += \
  $(LOCAL_PATH)/vendor/lib/libshim_mutexdestroy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshim_mutexdestroy.so \
  $(LOCAL_PATH)/vendor/lib/libshim_pthreadts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshim_pthreadts.so 
 
+# Fix WIFI&BT
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,device/xiaomi/land/prebuilt/vendor,vendor)
