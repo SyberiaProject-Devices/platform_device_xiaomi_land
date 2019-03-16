@@ -138,11 +138,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_cameraservice
 
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/cameraserver.rc:system/etc/init/cameraserver.rc \
-
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
+
+# OTA Updates
+PRODUCT_PACKAGES += \
+    Updates
 
 # Configstore
 PRODUCT_PACKAGES += \
@@ -543,7 +544,7 @@ PRODUCT_COPY_FILES += \
  $(LOCAL_PATH)/system/lib/libaudiopolicymanagerdefault.so:$system/lib/libaudiopolicymanagerdefault.so \
  $(LOCAL_PATH)/system/lib/libaudiopolicyservice.so:$system/lib/libaudiopolicyservice.so \
  $(LOCAL_PATH)/system/lib/libaudioprocessing.so:$system/lib/libaudioprocessing.so \
- $(LOCAL_PATH)/system/lib/llibaudio-resampler.so:$system/lib/libaudio-resampler.so \
+ $(LOCAL_PATH)/system/lib/libaudio-resampler.so:$system/lib/libaudio-resampler.so \
  $(LOCAL_PATH)/system/lib/libaudioroute.so:$system/lib/libaudioroute.so \
  $(LOCAL_PATH)/system/lib/libaudiospdif.so:$system/lib/libaudiospdif.so \
  $(LOCAL_PATH)/system/lib/libaudioutils.so:$system/lib/libaudioutils.so \
@@ -570,7 +571,7 @@ PRODUCT_COPY_FILES += \
  $(LOCAL_PATH)/system/lib64/libaudiopolicymanagerdefault.so:$system/lib64/libaudiopolicymanagerdefault.so \
  $(LOCAL_PATH)/system/lib64/libaudiopolicyservice.so:$system/lib64libaudiopolicyservice.so \
  $(LOCAL_PATH)/system/lib64/libaudioprocessing.so:$system/lib64/libaudioprocessing.so \
- $(LOCAL_PATH)/system/lib64/llibaudio-resampler.so:$system/lib64/libaudio-resampler.so \
+ $(LOCAL_PATH)/system/lib64/libaudio-resampler.so:$system/lib64/libaudio-resampler.so \
  $(LOCAL_PATH)/system/lib64/libaudioroute.so:$system/lib64/libaudioroute.so \
  $(LOCAL_PATH)/system/lib64/libaudiospdif.so:$system/lib64/libaudiospdif.so \
  $(LOCAL_PATH)/system/lib64/libaudioutils.so:$system/lib64/libaudioutils.so \
