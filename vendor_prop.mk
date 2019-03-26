@@ -99,7 +99,8 @@ ro.qualcomm.cabl=0 \
 ro.qualcomm.svi=0 \
 ro.sf.lcd_density=280 \
 persist.debug.wfd.enable=1 \
-persist.hwc.enable_vds=1
+persist.hwc.enable_vds=1 \
+vendor.video.disable.ubwc=1
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
