@@ -123,6 +123,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbt-vendor
 
+# Boost Framework
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8937
