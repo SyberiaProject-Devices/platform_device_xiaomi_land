@@ -482,7 +482,7 @@ PRODUCT_PACKAGES += \
 
 # Fix  Camera
 PRODUCT_COPY_FILES += \
- $(LOCAL_PATH)/vendor/lib/libshim_cameraservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshim_cameraservice.so \
- $(LOCAL_PATH)/vendor/lib/libshim_mutexdestroy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshim_mutexdestroy.so \
- $(LOCAL_PATH)/vendor/lib/libshim_pthreadts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshim_pthreadts.so 
+ $(LOCAL_PATH)/libshim/lib/libshim_cameraservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshim_cameraservice.so \
+ $(LOCAL_PATH)/libshim/lib/libshim_mutexdestroy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshim_mutexdestroy.so \
+ $(LOCAL_PATH)/libshim/lib/libshim_pthreadts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshim_pthreadts.so 
 
