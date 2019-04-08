@@ -144,9 +144,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_cameraservice
 
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/cameraserver.rc:system/etc/init/cameraserver.rc \
-
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
