@@ -216,6 +216,7 @@ TARGET_RIL_VARIANT := caf
 
 # Telephony
 TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
+TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
