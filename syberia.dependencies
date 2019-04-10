@@ -7,7 +7,7 @@
   {
     "repository" : "Xiaomi-Redmi3S-pie/kernel_xiaomi_land_msm8937",
     "target_path": "kernel/xiaomi/msm8937",
-    "branch": "syberia-pie"
+    "branch": "lineage-16.0"
   },
   {
    "repository" : "syberia-project/platform_hardware_qcom_audio",
@@ -15,9 +15,9 @@
    "branch"     : "9.0-caf-8996"
   },
   {
-   "repository" : "Xiaomi-Redmi3S-pie/display-caf",
+   "repository" : "syberia-project/platform_hardware_qcom_display",
    "target_path": "hardware/qcom/display-caf/msm8996",
-   "branch"     : "pie-caf"
+   "branch"     : "9.0-caf-8996"
   },
   {
    "repository" : "syberia-project/platform_hardware_qcom_media",
