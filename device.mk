@@ -150,11 +150,15 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 # Configstore
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-service
-    
+ 
 # Consumerir
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
+
+# Updater
+PRODUCT_PACKAGES += \
+   Updater
 
 # Charger
 include $(DEVICE_PATH)/rootdir/charger/charger.mk
