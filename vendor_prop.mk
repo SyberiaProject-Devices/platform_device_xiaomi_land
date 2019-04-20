@@ -105,6 +105,10 @@ persist.debug.wfd.enable=1 \
 persist.hwc.enable_vds=1 \
 vendor.video.disable.ubwc=1
 
+#UI
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.use_fifo_ui=1
+
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
 drm.service.enabled=true
