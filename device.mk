@@ -123,6 +123,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbt-vendor
 
+# Display calibration
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service.xiaomi
+
 # Boost Framework
 PRODUCT_BOOT_JARS += \
     QPerformance \
