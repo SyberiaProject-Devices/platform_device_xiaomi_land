@@ -14,3 +14,8 @@ allow init hal_power_hwservice:hwservice_manager add;
 allow init system_file:file x_file_perms;
 allow init hal_usb_hwservice:hwservice_manager add;
 allow init default_android_hwservice:hwservice_manager add;
+allow init hal_dpmqmi_hwservice:hwservice_manager find;
+allow init diag_device:chr_file rw_file_perms;
+allow init init:netlink_route_socket { read write };
+allow init netutils_wrapper_exec:file x_file_perms;
+allow init hal_perf_hwservice:hwservice_manager find;
