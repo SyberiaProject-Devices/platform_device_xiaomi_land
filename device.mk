@@ -221,7 +221,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service
 
 # GPS
-<<<<<<< HEAD
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl-qti \
     android.hardware.gnss@1.0-service-qti \
@@ -229,8 +228,6 @@ PRODUCT_PACKAGES += \
     libgnsspps \
     libcurl
 
-=======
->>>>>>> d04b70b... land: Update GPS from LA.UM.8.6.r1-02600-89xx.0
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
     $(LOCAL_PATH)/configs/gps/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \

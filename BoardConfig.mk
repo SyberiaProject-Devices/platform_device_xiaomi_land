@@ -186,10 +186,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := true
 USE_DEVICE_SPECIFIC_GPS := true
-<<<<<<< HEAD
-=======
 TARGET_NO_RPC := true
->>>>>>> d04b70b... land: Update GPS from LA.UM.8.6.r1-02600-89xx.0
 
 # HIDL
 #DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/vendor_framework_compatibility_matrix.xml
