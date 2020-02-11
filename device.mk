@@ -80,6 +80,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AntHalService
 
+# WiFi
+PRODUCT_PACKAGES += \
+    libwifi-hal-ctrl
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
