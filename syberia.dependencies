@@ -1,6 +1,6 @@
  [
   {
-    "repository" : "Xiaomi-Redmi3S-pie-q/proprietary_vendor_xiaomi-1",
+    "repository" : "https://github.com/JacobDeepu/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
     "branch": "ten"
   },
